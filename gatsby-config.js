@@ -1,4 +1,8 @@
 module.exports = {
+  siteMetadata: {
+    siteUrl: 'https://gatsby-tachyons-interui.netlify.com',
+    title: 'Ajmal Afif\'s personal website 👨🏻‍💻'
+  },
   plugins: [
     // {
     //   resolve: 'gatsby-plugin-web-font-loader',
