@@ -1,7 +1,4 @@
 module.exports = {
-  siteMetadata: {
-    title: 'Ajmal Afif\'s personal website 👨🏻‍💻'
-  },
   plugins: [
     // {
     //   resolve: 'gatsby-plugin-web-font-loader',
