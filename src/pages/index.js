@@ -1,10 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-
 // import '../css/font-face.css'
 import '../css/main.css'
-
-// const isFontLoaded = '<!--#if expr="$HTTP_COOKIE=/fonts\-loaded\=true/" -->'
 
 export default () => 
   <div className='pa4 link dim'>

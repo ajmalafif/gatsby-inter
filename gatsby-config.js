@@ -4,15 +4,15 @@ module.exports = {
     title: 'Ajmal Afif\'s personal website 👨🏻‍💻'
   },
   plugins: [
-    {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        custom: {
-          families: ['Inter UI', 'Inter UI Medium'],
-          urls: ['./css/font-face.css']
-        }
-      }
-    },
+    // {
+    //   resolve: 'gatsby-plugin-web-font-loader',
+    //   options: {
+    //     custom: {
+    //       families: ['Inter UI', 'Inter UI Medium'],
+    //       urls: ['./css/font-face.css']
+    //     }
+    //   }
+    // },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
     {
