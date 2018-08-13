@@ -4,7 +4,7 @@ import '../css/font-face.css'
 require('inter-ui')
 import '../css/main.css'
 
-const isFontLoaded = '<!--#if expr="$HTTP_COOKIE=/fonts\-loaded\=true/" -->'
+// const isFontLoaded = '<!--#if expr="$HTTP_COOKIE=/fonts\-loaded\=true/" -->'
 
 export default () => 
   <div className='pa4 link dim'>
@@ -34,6 +34,6 @@ export default () =>
       <meta name="twitter:url" content={config.siteUrl} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} /> */}
-      <html lang='en' className={isFontLoaded ? 'fonts-loaded' : null} />
+      {/* <html lang='en' className={isFontLoaded ? 'fonts-loaded' : null} /> */}
     </Helmet>
   </div>
